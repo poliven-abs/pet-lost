@@ -159,12 +159,13 @@ a {
 }
 
 .timetable {
-  display: none;
+  display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   padding-bottom: 20px;
   margin-top: 10px;
   margin-bottom: 30px;
+  border-bottom: 0.5px solid #5884BF;
 }
 
 .classes {
@@ -190,4 +191,14 @@ a {
 .type-block :hover {
   text-decoration: underline;
   color: #d3d7e7;
+}
+
+.builds {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-bottom: 0.5px solid #5884BF;
 }/*# sourceMappingURL=style.css.map */

@@ -161,15 +161,14 @@
 
   }
 
-
-
   .timetable {
-    display: none;
+    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     padding-bottom: 20px;
     margin-top: 10px;
     margin-bottom: 30px;
+    border-bottom: 0.5px solid #5884BF;
   }
 
   .classes {
@@ -203,4 +202,14 @@
         }
     }
 
+  }
+
+  .builds {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid #5884BF;
   }
