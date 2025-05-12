@@ -79,7 +79,7 @@
                     <ul>
                         <li class="block-text__list"><a href="https://maxroll.gg/lost-ark/resources/ark-passive-system-guide#evolution-tree-header" target="_blank">Ark Passive + Бижутерия</a><br>
                             <button class="block-btn" onclick="toggleVisibility()">Таблица</button>
-                            <div id="hiddenDiv" style="display:none">
+                            <div id="table-effects" style="display:none">
                                 <img class="block-img" src="img/tablica.jpg" alt="tab">
                             </div>
                         </li>
@@ -200,9 +200,9 @@
     <footer class="footer center"></footer>
 
     <script>
-        document.getElementById('myButton').onclick = myFunction;
+
         function toggleVisibility() {
-            let element = document.getElementById('hiddenDiv');
+            let element = document.getElementById('table-effects');
             if (element.style.display === 'none') {
                 element.style.display = 'block';
             } else {
