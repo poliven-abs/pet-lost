@@ -19,17 +19,29 @@ a {
   color: #EDF2F8;
 }
 
+.top {
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
 .header {
-  display: none;
   height: 80px;
-  align-content: center;
   border-bottom: 0.5px solid #5884BF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
 }
 .header-nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 .header-btn {
   cursor: pointer;
@@ -42,6 +54,8 @@ a {
   border: none;
   outline: none;
   color: #EDF2F8;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .personal {
@@ -94,6 +108,15 @@ a {
   line-height: 29px;
 }
 
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-bottom: 0.5px solid #5884BF;
+}
 .roadmap-content {
   display: flex;
   justify-content: center;

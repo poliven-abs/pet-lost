@@ -19,17 +19,27 @@
     color: #EDF2F8;
   }
 
-
+  .top {
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+  }
   .header {
-    display: none;
     height: 80px;
-    align-content: center;
     border-bottom: 0.5px solid #5884BF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
     &-nav {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        gap: 20px;
     }
     &-btn {
         cursor: pointer;
@@ -42,6 +52,8 @@
         border: none;
         outline: none;
         color: #EDF2F8;
+        margin-left: 20px;
+        margin-right: 20px;
     }
   }
 
@@ -96,6 +108,13 @@
   }
 
   .roadmap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid #5884BF;
     &-content {
       display: flex;
       justify-content: center;

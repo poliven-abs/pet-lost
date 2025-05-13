@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="top center">
+    <div class="top">
         <header class="header">
             <nav class="header-nav">
                 <button class="header-btn" onclick="document.querySelector('.personal').scrollIntoView({ behavior: 'smooth'})">Персонажи</button>
+                <button class="header-btn" onclick="document.querySelector('.roadmap').scrollIntoView({ behavior: 'smooth'})">План обновлений</button>
                 <button class="header-btn" onclick="document.querySelector('.guides').scrollIntoView({ behavior: 'smooth'})">Гайды</button>
                 <button class="header-btn" onclick="document.querySelector('.timetable').scrollIntoView({ behavior: 'smooth'})">Новости</button>
                 <button class="header-btn" onclick="document.querySelector('.builds').scrollIntoView({ behavior: 'smooth'})">Билды</button>
@@ -22,7 +23,7 @@
         </header>
     </div>
 
-    <main class="main center">
+    <main class="main center" style="padding-top: 88px">
         <div class="personal">
             <h2 class="block-title">Персонажи</h2>
             <div class="personal-container">
