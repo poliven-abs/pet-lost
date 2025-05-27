@@ -199,4 +199,75 @@ a {
 .block-type :hover {
   text-decoration: underline;
   color: #d3d7e7;
+}
+
+@media (max-width: 1200px) {
+  .header-btn {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .personal {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .personal-id {
+    margin: 7px;
+  }
+  .roadmap {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .roadmap-img {
+    width: 95vw;
+  }
+  .block {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+  .personal-row {
+    gap: 30px;
+  }
+  .personal-id {
+    height: 80px;
+    width: 180px;
+  }
+  .personal-link {
+    font-size: 18px;
+  }
+  .roadmap {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .roadmap-img {
+    width: 95vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header-btn {
+    font-size: 18px;
+  }
+  .personal-row {
+    gap: 15px;
+  }
+  .personal-id {
+    margin: 0;
+    height: 80px;
+    width: 180px;
+  }
+  .personal-link {
+    font-size: 18px;
+  }
+  .roadmap-img {
+    width: 90vw;
+  }
 }/*# sourceMappingURL=style.css.map */
