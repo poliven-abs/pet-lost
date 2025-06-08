@@ -88,13 +88,6 @@
       align-content: center;
       text-align: center;
       transition: all 0.5s;
-      &__2 {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 10px;
-      }
       :hover {
         color:#d3d7e7;
       }
