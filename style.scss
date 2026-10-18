@@ -79,17 +79,17 @@
       gap: 50px;
     }
     &-id {
-      width: 200px;
-      height: 150px;
+      width: 250px;
       margin: 15px;
       background-color: #233448;
       box-sizing: border-box;
       border: 1px solid #5884BF;
       border-radius: 20px;
-      align-content: center;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    &-name {
+    &-text {
       font-size: 24px;
       font-weight: 500;
       line-height: 1.5;
@@ -107,7 +107,7 @@
     }
   }
  
-
+ 
 
   .roadmap {
     display: flex;
